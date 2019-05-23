@@ -7,7 +7,7 @@ Last udpated: 08/28/2018
 
 """
 
-from .ttest import ttest
+from .ttest import *
 from .summary import *
 from .correlation import *
 from .crosstab import *
