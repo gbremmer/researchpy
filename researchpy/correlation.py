@@ -50,8 +50,9 @@ def corr_case(dataframe, method = None):
             
             
     # Getting the testing information dataframe ready
-    info = pandas.DataFrame(numpy.zeros(shape= (1,1)), 
-                         columns = [f"{test_name} correlation test using list-wise deletion"])
+    info = pandas.DataFrame(numpy.zeros(shape= (1,1)))
+  
+                         ##columns = [f"{test_name} correlation test using list-wise deletion"])
     
     info.iloc[0,0] = f"Total observations used = {length}"
           
