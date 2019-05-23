@@ -8,5 +8,4 @@ Last udpated: 08/28/2018
 """
 
 from .summary import *
-from .correlation import *
-from .crosstab import *
+
